@@ -7,4 +7,4 @@ data = pd.DataFrame({
   "rand": np.random.rand(1, len(t))[0] + 5,
   "sin": np.random.rand(1, len(t))[0] + 3*np.sin(t) - 2*np.sin(0.5*t) + np.sin(0.25*t)
 })
-st.chart_line(data)
+st.line_chart(data)
